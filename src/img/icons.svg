@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-hero-arrow" viewBox="0 0 64 32">
+      <path fill="#fff" d="M44.444 0 64 15.396 44.444 30.792V18.063H0V12.73h44.444V.001z" style="fill:var(--color1, #fff)"/>
+    </symbol>
+    <symbol id="icon-star" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="m16 3.2 3.955 7.899 8.845 1.274-6.4 6.145 1.51 8.681L16 23.098l-7.91 4.101 1.51-8.681-6.4-6.145 8.845-1.274L16 3.2z"/>
+    </symbol>
+    <symbol id="icon-our-courses-arrow" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08" d="M8 24 24 8M13.333 8H24v10.667"/>
+    </symbol>
+    <symbol id="icon-camera" viewBox="0 0 32 32">
+      <path d="M21 17a4.997 4.997 0 0 1-5 5 5.002 5.002 0 0 1-5-5 4.998 4.998 0 0 1 8.536-3.536A4.998 4.998 0 0 1 21 17z"/>
+      <path d="M4 8a4.003 4.003 0 0 0-4 4v12a4.003 4.003 0 0 0 4 4h24a4.003 4.003 0 0 0 4-4V12a4.003 4.003 0 0 0-4-4h-2.344a4 4 0 0 1-2.828-1.172l-1.656-1.656A4 4 0 0 0 18.344 4h-4.688a4 4 0 0 0-2.828 1.172L9.172 6.828A4 4 0 0 1 6.344 8H4zm1 4a.997.997 0 0 1-1-1 .997.997 0 0 1 1-1 .997.997 0 0 1 1 1 .997.997 0 0 1-1 1zm18 5a6.999 6.999 0 1 1-14 0 7.003 7.003 0 0 1 7-7 7.003 7.003 0 0 1 7 7z"/>
+    </symbol>
+    <symbol id="icon-vector-2" viewBox="0 0 32 32">
+      <path d="m15.321 7.144 11.195-.349-2.288 10.964-3.682-4.388L5.225 26.227l-1.543-1.839 15.321-12.856-3.682-4.388z"/>
+    </symbol>
+    <symbol id="close-menu-icon" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="M24 8 8 24M8 8l16 16"/>
+    </symbol>
+    <symbol id="icon-burger" viewBox="0 0 46 32">
+      <path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3.429" d="M8.671 5.074H44M8.671 24.468H44M19.602 14.771H44" style="stroke:var(--color1, #fff)"/>
+    </symbol>
+  </defs>
+</svg>
+</svg>
