@@ -1,0 +1,103 @@
+.header{
+    display: flex;  
+    background-color: #121212;
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-nav{
+      display: flex;
+      padding: 17px 20px;
+      border: 1px solid rgba(255, 255, 255, 0.20);
+      border-radius: 12px;
+      margin-right: 20px;
+      justify-content: center;
+      align-items: center;
+  }
+  .header-logo{
+      margin-right: 94px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+     .header-logo{
+      margin-right: 301px;
+    }
+  }
+  
+  
+  .header-list{
+      display: flex;
+      gap: 40px;
+  }
+  @media only screen and (max-width: 1279.98px) {
+     .header-list{
+      display: none;
+    }
+  }
+  .header-item{
+    color: #FFF;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  }
+  .header-camera-link{
+      display: flex;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      background-color: #1D1D1D;
+      margin-right: 14px;
+  }
+  .header-camera{
+  fill: #BEA69E;
+  }
+  @media only screen and (min-width: 768px) {
+     .header-camera-link{
+      display: none;
+    }
+  }
+  .header-burger{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      padding: 0;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+      outline: none;
+  }
+  .header-burger-icon{
+      stroke: #fff;
+  }
+  @media only screen and (min-width: 1280px) {
+     .header-burger{
+      display: none;
+    }
+  }
+  .sign-link{
+      display: inline-flex;
+      padding: 16px 84px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      background: #fff;
+  
+      color: #121212;
+      font-family: DM Sans;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.55; /* 155.556% */
+      text-transform: uppercase; 
+  }
+  @media only screen and (max-width: 767.98px) {
+     .sign-link{
+      display: none;
+    }
+  }
