@@ -1,5 +1,4 @@
 .hero {
-  background-color: #121212;
   padding-bottom: 80px;
 }
 .hero .container {
@@ -7,21 +6,15 @@
   max-width: 335px;
   height: 777px;
 
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
 
   border-radius: 30px;
-  background-color: #1d1d1d;
+  background-color: var(--secondary-black-color);
 
   position: relative;
 }
 @media only screen and (min-width: 768px) {
   .hero .container {
-    padding-left: 32px;
-    padding-right: 32px;
     padding-top: 64px;
 
     max-width: 704px;
@@ -40,12 +33,12 @@
 }
 
 .hero-header {
-  color: #fff;
+  color: var(--primary-white-color);
   font-size: 40px;
   font-weight: 500;
   line-height: 1.1;
-  letter-spacing: -0.04em;
-  max-width: 295px;
+  /* letter-spacing: -0.04em; */
+  min-width: 295px;
   margin-bottom: 20px;
 }
 @media only screen and (min-width: 768px) {
@@ -63,12 +56,12 @@
 }
 
 .hero-header-span {
-  color: #bea69e;
+  color: var(--brown-color);
   font-style: italic;
   font-weight: 400;
 }
 .hero-text {
-  color: #fff;
+  color: var(--primary-white-color);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29;
@@ -147,7 +140,7 @@
 }
 
 .hero-ourstudents-text {
-  color: #fff;
+  color: var(--primary-white-color);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29;
@@ -162,8 +155,6 @@
   }
 }
 
-.hero-arrow-icon {
-}
 .hero-reviews {
   display: inline-flex;
   gap: 12px;
@@ -175,7 +166,7 @@
   width: 44px;
   height: 44px;
   border-radius: 100px;
-  background-color: #bea69e;
+  background-color: var(--brown-color);
 }
 @media only screen and (min-width: 768px) {
   .hero-star-circle {
@@ -185,10 +176,9 @@
 }
 
 .hero-star-icon {
-  stroke: #121212;
+  stroke: var(--primary-black-color);
 }
-.hero-reviews-text-box {
-}
+
 .hero-reviews-header {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
@@ -207,7 +197,7 @@
 }
 
 .hero-reviews-text {
-  color: #fff;
+  color: var(--primary-white-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.13;
