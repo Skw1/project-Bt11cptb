@@ -1,6 +1,5 @@
 .header{
     display: flex;  
-    background-color: #121212;
     padding-top: 20px;
     padding-bottom: 80px;
   }
@@ -14,12 +13,26 @@
       padding: 17px 20px;
       border: 1px solid rgba(255, 255, 255, 0.20);
       border-radius: 12px;
-      margin-right: 20px;
+      margin-right: 12px;
       justify-content: center;
       align-items: center;
   }
+  @media only screen and (min-width: 768px) {
+     .header-nav{
+      padding: 22px 20px;
+    }
+  }
+  @media only screen and (min-width: 1280px) {
+     .header-nav{
+        padding: 22px 50px;
+      margin-right: 20px;
+    }
+  }
   .header-logo{
-      margin-right: 94px;
+      margin-right: 97px;
+  }
+  .header-logo-icon{
+    fill: var(--primary-white-color);
   }
   @media only screen and (min-width: 768px) and (max-width: 1279.98px) {
      .header-logo{
@@ -30,7 +43,7 @@
   
   .header-list{
       display: flex;
-      gap: 40px;
+      gap: 28px;
   }
   @media only screen and (max-width: 1279.98px) {
      .header-list{
@@ -38,10 +51,11 @@
     }
   }
   .header-item{
-    color: #FFF;
+    color: var(--primary-white-color);
   font-family: DM Sans;
   font-size: 14px;
   font-weight: 400;
+  line-height: normal;
   text-transform: uppercase;
   }
   .header-camera-link{
@@ -55,7 +69,7 @@
       margin-right: 14px;
   }
   .header-camera{
-  fill: #BEA69E;
+  fill: var(--brown-color);
   }
   @media only screen and (min-width: 768px) {
      .header-camera-link{
@@ -74,7 +88,7 @@
       outline: none;
   }
   .header-burger-icon{
-      stroke: #fff;
+      stroke: var(--primary-white-color);
   }
   @media only screen and (min-width: 1280px) {
      .header-burger{
@@ -83,18 +97,23 @@
   }
   .sign-link{
       display: inline-flex;
-      padding: 16px 84px;
+      padding: 16px 58px;
       justify-content: center;
       align-items: center;
       border-radius: 12px;
-      background: #fff;
+      background: var(--primary-white-color);
   
-      color: #121212;
+      color: var(--primary-black-color);
       font-family: DM Sans;
       font-size: 18px;
       font-weight: 700;
       line-height: 1.55; /* 155.556% */
       text-transform: uppercase; 
+  }
+  @media only screen and (min-width: 1280px) {
+     .sign-link{
+      padding: 16px 84px;
+    }
   }
   @media only screen and (max-width: 767.98px) {
      .sign-link{
