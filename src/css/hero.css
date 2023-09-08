@@ -1,0 +1,124 @@
+.hero {
+  background-color: #121212;
+  padding-bottom: 80px;
+}
+.hero .container {
+  min-width: 280px;
+  max-width: 335px;
+  height: 777px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 30px;
+  background-color: #1d1d1d;
+
+  position: relative;
+}
+.hero-header {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -1.6px;
+  max-width: 295px;
+  margin-bottom: 20px;
+}
+.hero-header-span {
+  color: #bea69e;
+  font-style: italic;
+  font-weight: 400;
+}
+.hero-text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+
+  margin-bottom: 40px;
+}
+.hero-review-box {
+  display: inline-flex;
+  gap: 40px;
+}
+.hero-ourstudents {
+  width: 107px;
+}
+.hero-ourstudents-avatar {
+  display: inline-flex;
+  flex-shrink: 0;
+  margin-bottom: 4px;
+}
+.hero-avatar-img {
+}
+.hero-avatar-img:not(:last-child) {
+  margin-right: -11px;
+}
+.hero-avatar-img {
+  z-index: 3;
+}
+.hero-avatar-two {
+  z-index: 2;
+}
+.hero-avatar-three {
+  z-index: 1;
+}
+.hero-ourstudents-link {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+}
+.hero-ourstudents-text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  max-width: 67px;
+}
+.hero-arrow-icon {
+}
+.hero-reviews {
+  display: inline-flex;
+  gap: 12px;
+}
+.hero-star-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 100px;
+  background-color: #bea69e;
+}
+.hero-star-icon {
+  stroke: #121212;
+}
+.hero-reviews-text-box {
+}
+.hero-reviews-header {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  margin-bottom: 4px;
+}
+.hero-reviews-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.13;
+  letter-spacing: -0.04em;
+}
+.hero-img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 259px;
+}
