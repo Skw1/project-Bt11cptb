@@ -58,6 +58,10 @@
   line-height: normal;
   text-transform: uppercase;
   }
+  .header-item:hover,
+  .header-item:focus{
+    color: var(--brown-color);
+  }
   .header-camera-link{
       display: flex;
       width: 32px;
@@ -69,7 +73,11 @@
       margin-right: 14px;
   }
   .header-camera{
-  fill: var(--brown-color);
+  fill: #BEA69E66;
+  }
+  .header-camera:hover,
+  .header-camera:focus{
+    fill: var(--brown-color);
   }
   @media only screen and (min-width: 768px) {
      .header-camera-link{
@@ -101,7 +109,7 @@
       justify-content: center;
       align-items: center;
       border-radius: 12px;
-      background: var(--primary-white-color);
+      background-color: var(--primary-white-color);
   
       color: var(--primary-black-color);
       font-family: DM Sans;
@@ -119,4 +127,9 @@
      .sign-link{
       display: none;
     }
+  }
+  .sign-link:hover,
+  .sign-link:focus{
+    background-color: var(--secondary-black-color);
+    color: var(--brown-color);
   }
