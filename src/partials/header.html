@@ -28,7 +28,9 @@
           <use href="./img/icons.svg#icon-camera"></use>
         </svg>
     </a>
-    <button class="header-burger js-open-menu">
+    <button class="header-burger js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu">
         <svg class="header-burger-icon" width="32" height="22">
           <use href="./img/icons.svg#icon-burger"></use>
         </svg>
@@ -40,16 +42,19 @@
 
    <div class="menu-container js-menu-container" id="mobile-menu">
     <button class="menu-toggle js-close-menu">
-      <svg class="" width="16" height="16">
+      <svg class="mobile-close" width="32" height="32">
         <use href="./img/icons.svg#close-menu-icon"></use>
       </svg>
     </button>
 
     <ul class="mobile-menu">
-      <li><a href="" class="link">About us</a></li>
-      <li><a href="" class="link">Our courses</a></li>
-      <li><a href="" class="link">Our mentors</a></li>
-      <li><a href="" class="link">Reviews</a></li>
-      <li><a href="" class="link">Contacts</a> </li>
+      <li class="mobile-item"><a href="" class="link">About us</a></li>
+      <li class="mobile-item"><a href="" class="link">Our courses</a></li>
+      <li class="mobile-item"><a href="" class="link">Our mentors</a></li>
+      <li class="mobile-item"><a href="" class="link">Reviews</a></li>
+      <li class="mobile-item"><a href="" class="link">contacts</a></li>
     </ul>
+    <img  class="mobile-img"
+    srcset="./img/mobile-menu@1x.jpg 1x,  ./img/mobile-menu@2x.jpg 2x"
+    src="./img/mobile-menu@1x.jpg" alt="">
   </div>
