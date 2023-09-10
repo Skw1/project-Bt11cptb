@@ -57,12 +57,14 @@ body {
   letter-spacing: 0.04em;
   display: flex;
   margin-left: -80px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 767px) {
   .our-mentors-mini-title {
     font-size: 48px;
     margin-left: -68px;
+    margin-bottom: 50px;
   }
 }
 
@@ -70,6 +72,7 @@ body {
   .our-mentors-mini-title {
     font-size: 48px;
     margin-left: -240px;
+    margin-bottom: 50px;
   }
 }
 
