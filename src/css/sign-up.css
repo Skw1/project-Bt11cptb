@@ -23,7 +23,8 @@
 /* form styles */
 
 .sign-up-input {
-  min-width: 335px;
+  display: block;
+  width: 100%;
   height: 46px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -49,7 +50,8 @@
 }
 
 .sign-up-textarea {
-  min-width: 335px;
+  display: block;
+  width: 100%;
   height: 112px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -87,7 +89,8 @@
   text-transform: uppercase;
   cursor: pointer;
   display: inline-flex;
-  min-width: 335px;
+  display: block;
+  width: 100%;
   padding: 14px 127px;
   justify-content: center;
   align-items: center;
@@ -124,18 +127,6 @@
   |============================
 */
 
-@media screen and (max-width: 375px) {
-  .sign-up-input {
-    width: 100%;
-  }
-  .sign-up-textarea {
-    width: 100%;
-  }
-  .sign-up-btn {
-    width: 100%;
-  }
-}
-
 @media screen and (max-width: 1280px) {
   .sign-up-photos-container {
     display: none;
@@ -145,8 +136,9 @@
 /* Media for tablet */
 
 @media screen and (min-width: 768px) {
-  .sign-up-form-container {
-    margin-right: 256px;
+  .sign-up-container {
+    margin: 0;
+    max-width: 544px;
   }
 
   .sign-up-title {
@@ -191,5 +183,51 @@
   .sign-up-last-p {
     font-size: 14px;
     line-height: 1.3;
+  }
+}
+
+/* For desktop */
+
+@media screen and (min-width: 1280px) {
+  .sign-up-container {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .sign-up-photos-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 20px;
+    padding-bottom: 38px;
+  }
+
+  .sign-up-oval-one {
+    width: 180px;
+    height: 288px;
+    border-radius: 1000px;
+    background-color: var(--brown-color);
+    position: relative;
+  }
+
+  .sign-up-oval-two {
+    width: 340px;
+    height: 540px;
+    border-radius: 1000px;
+    background-color: var(--secondary-black-color);
+    position: relative;
+  }
+
+  .sign-up-lens {
+    position: absolute;
+    top: 76px;
+    display: block;
+    max-width: 100%;
+  }
+
+  .sign-up-camera {
+    display: block;
+    max-width: 100%;
   }
 }
