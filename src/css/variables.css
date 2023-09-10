@@ -5,5 +5,6 @@
     --linear-gradient:linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
     --brown-color:#BEA69E;
     --defaul-camera-color:rgba(190, 166, 158, 0.4);
-    --hover-animation: 400ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --hover-animation-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    --hover-animation-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
