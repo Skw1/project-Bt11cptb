@@ -222,12 +222,11 @@
   .sign-up-lens {
     position: absolute;
     top: 76px;
-    display: block;
-    max-width: 100%;
   }
 
   .sign-up-camera {
-    display: block;
-    max-width: 100%;
+    position: absolute;
+    top: 156px;
+    left: 50px;
   }
 }
