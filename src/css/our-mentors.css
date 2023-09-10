@@ -111,6 +111,10 @@ body {
   }
 }
 
+.our-mentors-mini-list {
+  width: auto;
+}
+
 @media screen and (min-width: 768px) {
   .our-mentors-mini-list {
     width: calc((100%-100px) / 2);
@@ -172,6 +176,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
+  width: 193px;
   margin-top: 16px;
   margin-bottom: 0;
 }
