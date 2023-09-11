@@ -146,7 +146,7 @@
   letter-spacing: -0.04em;
   max-width: 67px;
 }
-@media only screen and (min-width: 78px) {
+@media only screen and (min-width: 768px) {
   .hero-ourstudents-text {
     font-size: 16px;
     line-height: 1.25;
