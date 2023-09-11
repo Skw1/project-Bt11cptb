@@ -4,6 +4,7 @@
     max-width: 375px;
     padding-bottom: 80px;
     padding-top: 80px;
+    
 }
 
 @media only screen and (min-width: 768px) {
@@ -13,8 +14,10 @@
   }
 }
 
-.about-section {
-    
+@media only screen and (min-width: 1280px) {
+  .about-container {
+    max-width: 1280px;
+  }
 }
 
 .about-name {
@@ -46,8 +49,26 @@
   }
 }
 
-.about-us-photo {
-  gap: 40px;
+@media only screen and (max-width: 767.98px) {
+  .about-photo {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  .about-photo {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-photo {
+    margin-right: 40px;
+  }
+}
+
+.about-photo {
+  border-radius: 1000px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -76,6 +97,12 @@
 @media only screen and (min-width: 768px) {
   .about-text {
     max-width: 280px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-us-main {
+    align-items: center;
   }
 }
 
