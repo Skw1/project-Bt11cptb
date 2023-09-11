@@ -1,16 +1,16 @@
 .our-mentors-team {
-  /*padding: 80px;*/
+  margin: 80px 0;
 }
 
 @media screen and (min-width: 767px) {
   .our-mentors-team {
-    /*padding: 100px;*/
+    margin: 100px 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .our-mentors-team {
-    /*padding: 150px;*/
+    margin: 150px 0;
   }
 }
 
@@ -55,16 +55,16 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 0.04em;
+  /*letter-spacing: 0.04em;*/
   display: flex;
-  /*margin-left: -80px;*/
+  margin-left: -10px;
   margin-bottom: 40px;
 }
 
 @media screen and (min-width: 767px) {
   .our-mentors-mini-title {
     font-size: 48px;
-    /*margin-left: -68px;*/
+    margin-left: -10px;
     margin-bottom: 50px;
   }
 }
@@ -72,7 +72,7 @@ body {
 @media screen and (min-width: 1280px) {
   .our-mentors-mini-title {
     font-size: 48px;
-    /*margin-left: -240px;*/
+    margin-left: -80px;
     margin-bottom: 50px;
   }
 }
