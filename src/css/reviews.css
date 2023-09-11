@@ -117,11 +117,6 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .reviews-icons-wrap {
-  }
-}
-
 .reviews-icons {
   fill: currentColor;
   stroke-width: 1.5px;
@@ -131,6 +126,12 @@
   fill: #414141;
 }
 
+@media only screen and (max-width: 767.98px) {
+  .reviews-icons {
+    width: 16px;
+    height: 16px;
+  }
+}
 .reviews-text {
   color: var(--primary-white-color);
   font-size: 14px;
