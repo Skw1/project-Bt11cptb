@@ -159,6 +159,12 @@
   .mobile-close{
     stroke: var(--primary-black-color) ;
   }
+  @media only screen and (min-width: 768px) {
+     .mobile-close{
+      width: 40px;
+      height: 40px;
+    }
+  }
   
   @media (min-width: 1280px) {
     .menu-toggle {
