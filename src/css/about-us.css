@@ -1,14 +1,9 @@
 
-body {
-    background-color: #121212;
-}
-
 .about-container {
     min-width: 320px;
     max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding: 80px 20px;
+    padding-bottom: 80px;
+    padding-top: 80px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -45,10 +40,26 @@ body {
     letter-spacing: -0.04em;
 }
 
+@media only screen and (min-width: 1280px) {
+  .about-us-main {
+    display: flex;
+  }
+}
+
+.about-us-photo {
+  gap: 40px;
+}
+
 @media only screen and (min-width: 768px) {
   .about-text-container {
     display: flex;
     gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-text-container {
+    gap: 20px;
   }
 }
 
