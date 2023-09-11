@@ -2,13 +2,17 @@
 
 .section {}
 
-.foot-container {}
+.foot-container {
+    padding: 40px 20px;
+}
 
 .container {}
 
 .foot-address-container {}
 
-.foot-logo {}
+.foot-logo {
+    margin-bottom: 20px;
+}
 
 .foot-address {}
 
