@@ -99,6 +99,13 @@ body {
   min-height: 32px;
   min-width: 32px;
   border-radius: 50%;
+
+  transition: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-vector-our-courses:hover,
+.icon-vector-our-courses:focus{
+  background-color: brown;
+
 }
 .icon-vector-our-courses-arrow {
   height: 20px;
