@@ -181,6 +181,7 @@
     height: 100vh;
     padding: 20px;
     padding-top: 180px;
+    padding-bottom: 0;
     background-color: var(--brown-color);
     z-index: 999;
   
@@ -191,6 +192,7 @@
      .menu-container{
       padding: 64px;
       padding-top: 232px;
+      padding-bottom: 0;
     }
   }
   
@@ -221,11 +223,10 @@
     stroke: var(--primary-black-color);
   }
   .mobile-item:not(:last-child){
-    margin-bottom: 20px;
+    margin-bottom: 28px;
   }
 
   .mobile-img{
-    max-width: 100%;
-    object-fit:none;
+    object-fit: cover;
     
   }
