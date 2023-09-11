@@ -1,6 +1,9 @@
 body {
   background: var(--black, #121212);
 }
+:root{
+  --brown-color: #BEA69E;
+}
 .our-courses-section {
   width: calc(100vw - 200px);
   margin-left: 100px;
@@ -104,7 +107,7 @@ body {
 }
 .icon-vector-our-courses:hover,
 .icon-vector-our-courses:focus{
-  background-color: brown;
+  background-color: var(--brown-color);
 
 }
 .icon-vector-our-courses-arrow {
