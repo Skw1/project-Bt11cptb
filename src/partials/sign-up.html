@@ -23,12 +23,13 @@
           pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
           title="Enter relevant email address, please"
         />
-        <input
-          class="sign-up-input"
-          type="textarea"
+        <textarea
+          class="sign-up-textarea"
+          name="user-message"
           placeholder="Message"
           pattern=".*"
-        />
+        >
+        </textarea>
         <button class="sign-up-btn" type="submit">Send</button>
       </form>
       <p class="sign-up-last-p">
