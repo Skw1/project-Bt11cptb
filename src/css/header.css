@@ -179,21 +179,11 @@
     flex-direction: column;
     width: 60vw;
     height: 100vh;
-    padding: 20px;
-    padding-top: 180px;
-    padding-bottom: 0;
     background-color: var(--brown-color);
     z-index: 999;
   
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
-  }
-  @media only screen and (min-width: 768px) {
-     .menu-container{
-      padding: 64px;
-      padding-top: 232px;
-      padding-bottom: 0;
-    }
   }
   
   .menu-container.is-open {
@@ -207,8 +197,16 @@
   }
   
   .mobile-menu {
+    padding: 20px;
+    padding-top: 180px;
    margin-bottom: auto;
   }
+  @media only screen and (min-width: 768px) {
+    .mobile-menu{
+     padding: 64px;
+     padding-top: 232px;
+   }
+ }
   
   .mobile-menu .link {
     display: block;
