@@ -217,6 +217,9 @@
     line-height: normal;
     text-transform: uppercase;
   }
+  .link.curren{
+    font-weight: 700;
+  }
   .mobile-closw{
     stroke: var(--primary-black-color);
   }
