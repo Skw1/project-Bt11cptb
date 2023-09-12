@@ -9,6 +9,7 @@
     align-items: center;
   }
   .header-nav{
+      background-color: var(--primary-black-color);
       display: flex;
       padding: 17px 20px;
       border: 1px solid rgba(255, 255, 255, 0.20);

@@ -18,3 +18,8 @@
 @import url('./footer.css');
 
 
+.grid-container{
+  background-image: url(../img/desktop-grid@1x.png);
+  background-position: center;
+  background-size: cover;
+}
