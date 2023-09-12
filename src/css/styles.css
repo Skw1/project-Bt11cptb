@@ -46,8 +46,7 @@
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resoluton: 2ppx){
     .grid-container{
-          background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
-          rgba(46, 47, 66, 0.7)), url(../img/desktop-grid@2x.png);
+          background-image: url(../img/desktop-grid@2x.png);
       }
     }
   }
