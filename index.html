@@ -19,12 +19,73 @@
     />
     <title>Focus.Frame</title>
     
-    <script type="module" crossorigin src="/project-Bt11cptb/assets/index-1d482ec0.js"></script>
-    <link rel="stylesheet" href="/project-Bt11cptb/assets/index-f286a1c3.css">
+    <script type="module" crossorigin src="/project-Bt11cptb/assets/index-39f1a768.js"></script>
+    <link rel="stylesheet" href="/project-Bt11cptb/assets/index-5365c68d.css">
   </head>
   <body>
     <div class="grid-container">
-      
+      <header class="header">
+    <div class="container header-container">
+    <nav class="header-nav">
+        <a class="header-logo" href="./index.html">
+            <svg class="header-logo-icon" width="123" height="16">
+              <use href="/project-Bt11cptb/assets/icons-0755210c.svg#icon-logo"></use>
+            </svg>
+        </a>
+    <ul class="header-list">
+        <li class="header-item">
+            <a href="#about-us">About us</a>
+        </li>
+        <li class="header-item">
+            <a href="#our-courses">Our courses</a>
+        </li>
+        <li class="header-item">
+            <a href="#our-mentors">Our mentors</a>
+        </li>
+        <li class="header-item">
+            <a href="#reviews">Reviews</a>
+        </li>
+        <li class="header-item">
+            <a href="#contacts">contacts</a>
+        </li>
+    </ul>
+    <a href="#sign-up" class="header-camera-link">
+        <svg class="header-camera" width="16" height="16">
+          <use href="/project-Bt11cptb/assets/icons-0755210c.svg#icon-camera"></use>
+        </svg>
+    </a>
+    <button class="header-burger js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu">
+        <svg class="header-burger-icon" width="32" height="22">
+          <use href="/project-Bt11cptb/assets/icons-0755210c.svg#icon-burger"></use>
+        </svg>
+    </button>
+    </nav>
+    <a href="#sign-up" class="sign-link">Sign up</a>
+    </div>
+   </header> 
+
+   <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+      <svg class="mobile-close" width="32" height="32">
+        <use href="/project-Bt11cptb/assets/icons-0755210c.svg#close-menu-icon"></use>
+      </svg>
+    </button>
+
+    <ul class="mobile-menu">
+      <li class="mobile-item"><a href="#about-us" class="link curren">About us</a></li>
+      <li class="mobile-item"><a href="#our-courses" class="link">Our courses</a></li>
+      <li class="mobile-item"><a href="#our-mentors" class="link">Our mentors</a></li>
+      <li class="mobile-item"><a href="#reviews" class="link">Reviews</a></li>
+      <li class="mobile-item"><a href="#contacts" class="link">contacts</a></li>
+    </ul>
+    <picture>
+      <source class="mobile-img" media="(min-width: 768px)" srcset="/project-Bt11cptb/assets/tablet-menu@1x-78d8faf8.jpg 1x, /project-Bt11cptb/assets/tablet-menu@2x-bf9a8328.jpg 2x">
+      <source class="mobile-img" media="(max-width:  767.98px)" srcset="/project-Bt11cptb/assets/mobile-menu@1x-c31a5f3a.jpg 1x, /project-Bt11cptb/assets/mobile-menu@2x-80984e83.jpg 2x">
+      <img  class="mobile-img" src="/project-Bt11cptb/assets/mobile-menu@1x-c31a5f3a.jpg" alt="Camera" loading="lazy">
+    </picture>
+  </div>
       <section class="hero" id="hero">
     <div class="container">
         <h1 class="hero-header">Discover the magic of <span class="hero-header-span">photography</span> in our school
@@ -336,7 +397,7 @@
 </section>
     
     
-    <script src="./js/mobile-menu.js"></script>
+    <script src="./mobile-menu.js"></script>
     
   </body>
 </html>
