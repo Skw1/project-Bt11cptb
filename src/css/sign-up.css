@@ -89,10 +89,9 @@
   line-height: 1.25;
   text-transform: uppercase;
   cursor: pointer;
-  display: inline-flex;
-  display: block;
+  display: flex;
   width: 100%;
-  padding: 14px 127px;
+  padding: 14px 0;
   justify-content: center;
   align-items: center;
   border-radius: 12px;
