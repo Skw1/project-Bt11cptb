@@ -1,0 +1,57 @@
+.advertisement-part{
+    overflow: hidden;
+    color: #ffff;
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.adver-text {
+    display: flex;
+}
+.adver-moving-text {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 20px 0;
+    min-width: 100%;
+    white-space: nowrap;
+    animation-name: movingText;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.highlighter {
+    color: #BEA69E;
+}
+
+@media screen and (min-width: 768px) {
+    .advertisement-part {
+        font-size: 40px;
+    }
+    .adver-moving-text {
+        padding-top: 24px 20px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .advertisement-part {
+            font-size: 59px;
+        }
+        .adver-moving-text {
+            padding: 24px 100px;
+        }
+}
+
+@keyframes movingText {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
