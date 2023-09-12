@@ -7,13 +7,22 @@
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
-    background-image: url(./img/mobile-grid@2x.png);
+    .foot-section {
+        background-image: url(./img/mobile-grid@2x.png);
+    }
+}
+.foot-container {
+    padding-bottom: 20px;
+    color: var(--primary-white-color);
 }
 
-.foot-container {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: var(--primary-white-color);
+@media screen and (min-width: 768px) {
+    .foot-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 25px;
+        margin: 0 auto;
+    }
 }
 
 .foot-address-container {
@@ -21,7 +30,17 @@
     flex-direction: column;
     margin-bottom: 40px;
 }
-
+@media screen and (min-width: 768px) {
+.foot-address-container {
+    margin-right: 58px;
+    margin-bottom: 0;
+}
+}
+@media screen and (min-width: 768px) {
+    .foot-top {
+        display: flex;
+    }
+}
 .foot-logo {
     display: flex;
     margin-bottom: 20px;
@@ -35,12 +54,17 @@
     font-size: 14px;
     font-style: normal;
     line-height: 1.28;
-    letter-spacing: 0.01em;
+    
 }
 
 .foot-tel {
     font-size: 14px;
     text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+    .foot-tel {
+        min-width: 142px;
+    }
 }
 .foot-nav-container {
 }
@@ -54,8 +78,16 @@
     margin-bottom: 75px;
 
     text-transform: uppercase;
+    font-size: 14px;
 }
-
+@media screen and (min-width: 768px) {
+    .foot-nav {
+        flex-wrap: nowrap;
+        column-gap: 25px;
+        margin-right: 59px;
+        margin-bottom: 74px;
+    }
+}
 .foot-social-list {
     display: flex;
     flex-direction: column;
@@ -72,8 +104,15 @@
 .foot-nav-link {}
 
 .foot-form-container {
-    min-width: 335px;
+    /* min-width: 335px; */
     margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+    .foot-form-container {
+        max-width: 246px;
+        margin-bottom: 0;
+    }
+
 }
 .foot-form {
     display: flex;
@@ -81,7 +120,7 @@
     gap: 8px;
 }
 .foot-form-label {
-    width: 100%;
+    /* width: 100%; */
 }
 .foot-form-input {
     width: 267px;
@@ -99,6 +138,11 @@
 .foot-form-input:focus,
 .foot-form-input:hover {
     border-color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (min-width: 768px) {
+    .foot-form-input {
+        width: 178px;
+    }
 }
 .foot-btn {
     min-width: 60px;
@@ -120,6 +164,11 @@
 
     font-size: 12px;
     line-height: 1.33;
+}
+@media screen and (min-width: 768px) {
+.foot-bottom {
+    
+}
 }
 .foot-privasy {
 
