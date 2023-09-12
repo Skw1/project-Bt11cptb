@@ -1,5 +1,6 @@
 
 .advertisement-part{
+    display: flex;
     overflow: hidden;
     color: #ffff;
     font-size: 28px;
@@ -8,9 +9,11 @@
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+/*
 .adver-text {
-    display: inline-flex;
+    display: flex;
 }
+*/
 .adver-moving-text {
     flex-shrink: 0;
     margin: 0;
