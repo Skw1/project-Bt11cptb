@@ -1,9 +1,13 @@
 .foot-section {
-
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+    background-image: url(../img/mobile-grid@1x.png);
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .foot-container {
-    padding: 40px 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     color: var(--primary-white-color);
 }
 
@@ -26,7 +30,7 @@
     font-size: 14px;
     font-style: normal;
     line-height: 1.28;
-   
+    letter-spacing: 0.01em;
 }
 
 .foot-tel {
@@ -34,32 +38,87 @@
     text-transform: uppercase;
 }
 .foot-nav-container {
-    display: flex;
-    /* ??? */
 }
 
 .foot-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    column-gap: 40px;
+    margin-bottom: 75px;
+
     text-transform: uppercase;
 }
 
-.foot-social-list {}
+.foot-social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
 
 .foot-social-link {}
 
-.foot-nav-list {}
-
+.foot-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
 .foot-nav-link {}
 
-.foot-form-container {}
+.foot-form-container {
+    min-width: 335px;
+    margin-bottom: 40px;
+}
+.foot-form {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.foot-form-label {
+    width: 100%;
+}
+.foot-form-input {
+    width: 267px;
+    height: 60px;
+    padding: 20px 18px;
 
-.foot-form {}
+    outline: transparent;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+    background: var(--primary-white-color);
 
-.foot-form-ladel {}
+    transition: border-color var(--hover-animation-fast);
+}
+.foot-form-input:focus,
+.foot-form-input:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+.foot-btn {
+    min-width: 60px;
+    height: 60px;
+    cursor: pointer;
 
-.foot-form-input {}
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-black-color);
+    border-radius: 12px;
+    outline: transparent;
+    border: none;
+    color: var(--primary-white-color);
+}
+.foot-bottom {
+    display: flex;
+    justify-content: space-between;
 
-.foot-bottom {}
+    font-size: 12px;
+    line-height: 1.33;
+}
+.foot-privasy {
 
-.foot-privasy {}
+}
+.foot-copyright {
 
-.foot-copyright {}
+}
