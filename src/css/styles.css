@@ -31,7 +31,7 @@
 
 }
 
-@media (min-width:768px){
+@media (min-width:375px){
   .grid-container{
       background-image:  url(../img/tablet-grid@1x.png);
   }
@@ -41,7 +41,7 @@
       }
 }
 }
-@media (min-width:1280px){
+@media (min-width:768px){
   .grid-container{
       background-image: url(../img/desktop-grid@1x.png);
   }
