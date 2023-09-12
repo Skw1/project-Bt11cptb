@@ -9,11 +9,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-/*
-.adver-text {
-    display: flex;
-}
-*/
+
 .adver-moving-text {
     flex-shrink: 0;
     margin: 0;
@@ -27,7 +23,7 @@
 }
 
 .highlighter {
-    color: #BEA69E;
+    color: var(--brown-color);
 }
 
 @media screen and (min-width: 768px) {
