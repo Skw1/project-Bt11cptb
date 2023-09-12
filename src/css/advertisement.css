@@ -38,9 +38,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .advertisement{
-        margin-bottom: 150px;
-    }
+   
     .advertisement-part {
             font-size: 59px;
         }
