@@ -1,3 +1,4 @@
+
 .advertisement-part{
     overflow: hidden;
     color: #ffff;
@@ -36,13 +37,16 @@
     }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
+    .advertisement{
+        margin-bottom: 150px;
+    }
     .advertisement-part {
             font-size: 59px;
         }
         .adver-moving-text {
             padding: 24px 100px;
-        }
+        }     
 }
 
 @keyframes movingText {
