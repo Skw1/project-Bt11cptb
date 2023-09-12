@@ -1,6 +1,17 @@
 .hero {
   padding-bottom: 80px;
 }
+@media only screen and (min-width: 768px) {
+  .hero {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero {
+    padding-bottom: 150px;
+  }
+}
+
 .hero .container {
   min-width: 280px;
   max-width: 335px;
