@@ -187,6 +187,7 @@
 
 .hero-star-icon {
   stroke: var(--primary-black-color);
+  fill: none;
 }
 
 .hero-reviews-header {
