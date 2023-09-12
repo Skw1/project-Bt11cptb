@@ -1,8 +1,13 @@
 .foot-section {
     border-top: 1px solid rgba(255, 255, 255, 0.20);
-    background-image: url(../img/mobile-grid@1x.png);
+    background-image: url(./img/mobile-grid@1x.png);
     background-repeat: repeat;
     background-size: cover;
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+    background-image: url(./img/mobile-grid@2x.png);
 }
 
 .foot-container {
