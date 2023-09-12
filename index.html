@@ -19,8 +19,8 @@
     />
     <title>Focus.Frame</title>
     
-    <script type="module" crossorigin src="/project-Bt11cptb/assets/index-f7fabac9.js"></script>
-    <link rel="stylesheet" href="/project-Bt11cptb/assets/index-31d2a782.css">
+    <script type="module" crossorigin src="/project-Bt11cptb/assets/index-ffdfb182.js"></script>
+    <link rel="stylesheet" href="/project-Bt11cptb/assets/index-41f3497a.css">
   </head>
   <body>
     <div class="grid-container">
@@ -183,7 +183,7 @@
   </div>
 </section>
 
-      <section class="sign-up-section">
+      <section id="sign-up" class="sign-up-section">
   <div class="container sign-up-container">
     <div class="sign-up-form-container">
       <h2 class="sign-up-title">
@@ -208,16 +208,17 @@
           pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
           title="Enter relevant email address, please"
         />
-        <input
-          class="sign-up-input"
-          type="textarea"
+        <textarea
+          class="sign-up-textarea"
+          name="user-message"
           placeholder="Message"
           pattern=".*"
-        />
+        ></textarea>
+
         <button class="sign-up-btn" type="submit">Send</button>
       </form>
       <p class="sign-up-last-p">
-        By clicking on “Send” button, you agree to our
+        By clicking on "Send" button, you agree to our
         <span class="sign-up-p-span">Privacy Policy</span>, and allow Promodo to
         use this information for marketing purposes.
       </p>
@@ -229,6 +230,7 @@
           srcset="./img/signup-lens@1x.png 1x, ./img/signup-lens@2x 2x"
           src="/project-Bt11cptb/assets/signup-lens@1x-a1a32f79.png"
           alt="Camera lens"
+          width="150px"
         />
       </div>
       <div class="sign-up-oval-two">
@@ -238,6 +240,7 @@
           src="/project-Bt11cptb/assets/signup-camera@1x-94f8768a.png"
           src=""
           alt="Photocamera"
+          width="240px"
         />
       </div>
     </div>
