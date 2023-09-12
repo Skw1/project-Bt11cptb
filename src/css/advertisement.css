@@ -9,7 +9,7 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .adver-text {
-    display: flex !important;
+    display: inline-flex;
 }
 .adver-moving-text {
     flex-shrink: 0;
