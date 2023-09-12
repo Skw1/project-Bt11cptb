@@ -203,7 +203,6 @@
     align-items: flex-end;
     gap: 20px;
     padding-bottom: 38px;
-
   }
 
   .sign-up-oval-one {
@@ -239,7 +238,7 @@
 
 /* For desktop 1440 */
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   .sign-up-container {
     display: flex;
     flex-direction: row;
@@ -276,4 +275,4 @@
     left: 50px;
     width: 254px;
   }
-}
+} */
