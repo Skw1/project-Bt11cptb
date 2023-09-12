@@ -1,4 +1,4 @@
-<section class="sign-up-section">
+<section id="sign-up" class="sign-up-section">
   <div class="container sign-up-container">
     <div class="sign-up-form-container">
       <h2 class="sign-up-title">
@@ -23,16 +23,16 @@
           pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
           title="Enter relevant email address, please"
         />
-        <input
-          class="sign-up-input"
-          type="textarea"
+        <textarea
+          class="sign-up-textarea"
+          name="user-message"
           placeholder="Message"
-          pattern=".*"
-        />
+        ></textarea>
+
         <button class="sign-up-btn" type="submit">Send</button>
       </form>
       <p class="sign-up-last-p">
-        By clicking on “Send” button, you agree to our
+        By clicking on "Send" button, you agree to our
         <span class="sign-up-p-span">Privacy Policy</span>, and allow Promodo to
         use this information for marketing purposes.
       </p>
@@ -41,18 +41,19 @@
       <div class="sign-up-oval-one">
         <img
           class="sign-up-lens"
-          srcset="./img/signup-lens@1x.png 1x, ./img/signup-lens@2x 2x"
+          srcset="./img/signup-lens@1x.png 1x, ./img/signup-lens@2x.png 2x"
           src="./img/signup-lens@1x.png"
           alt="Camera lens"
+          width="150"
         />
       </div>
       <div class="sign-up-oval-two">
         <img
           class="sign-up-camera"
-          srcset="./img/signup-camera@1x.png 1x, ./img/signup-camera@2x 2x"
+          srcset="./img/signup-camera@1x.png 1x, ./img/signup-camera@2x.png 2x"
           src="./img/signup-camera@1x.png"
-          src=""
           alt="Photocamera"
+          width="240"
         />
       </div>
     </div>
