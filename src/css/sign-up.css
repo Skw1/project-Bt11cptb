@@ -201,6 +201,7 @@
     align-items: flex-end;
     gap: 20px;
     padding-bottom: 38px;
+    margin-right: 0;
   }
 
   .sign-up-oval-one {
