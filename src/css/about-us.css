@@ -1,3 +1,18 @@
+.about-container {
+  padding-top: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-container {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-container {
+    padding-top: 150px;
+  }
+}
 
 .about-name {
     color: var(--primary-white-color);
