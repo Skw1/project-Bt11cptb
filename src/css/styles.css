@@ -20,7 +20,7 @@
 
 .grid-container{
   background-image: url(../img/mobile-grid@1x.png);
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
 }
