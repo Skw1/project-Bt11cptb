@@ -20,7 +20,8 @@
 
 .grid-container{
   background-image: url(../img/mobile-grid@1x.png);
-  
+  background-position: center;
+  background-size: cover;
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resoluton: 2ppx){
   .grid-container{
