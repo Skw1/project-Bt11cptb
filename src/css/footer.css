@@ -12,6 +12,7 @@
     }
 }
 .foot-container {
+    padding-top: 40px;
     padding-bottom: 20px;
     color: var(--primary-white-color);
 }
