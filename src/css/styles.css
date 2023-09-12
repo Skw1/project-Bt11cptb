@@ -20,7 +20,7 @@
 
 .grid-container{
   background-image: url(../img/mobile-grid@1x.png);
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position:center;
 }
@@ -41,6 +41,7 @@
       }
 }
 }
+
 @media (min-width:768px){
   .grid-container{
       background-image: url(../img/desktop-grid@1x.png);
