@@ -1,7 +1,17 @@
 .header{
     display: flex;  
     padding-top: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
+  }
+  @media only screen and (min-width: 768px) {
+     .header{
+      padding-bottom: 40px;
+    }
+  }
+  @media only screen and (min-width: 1280pxpx) {
+     .header{
+      padding-bottom: 80px;
+    }
   }
   .header-container{
     display: flex;
@@ -13,13 +23,13 @@
       padding: 17px 20px;
       border: 1px solid rgba(255, 255, 255, 0.20);
       border-radius: 12px;
-      margin-right: 12px;
       justify-content: center;
       align-items: center;
   }
   @media only screen and (min-width: 768px) {
      .header-nav{
       padding: 22px 20px;
+      margin-right: 12px;
     }
   }
   @media only screen and (min-width: 1280px) {
@@ -29,14 +39,24 @@
     }
   }
   .header-logo{
-      margin-right: 97px;
+      margin-right: 40px;
   }
   .header-logo-icon{
     fill: var(--primary-white-color);
   }
-  @media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+  @media only screen and (min-width: 375px) {
+     .header-logo{
+      margin-right: 94px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
      .header-logo{
       margin-right: 301px;
+    }
+  }
+  @media only screen and (min-width: 1280px) {
+     .header-logo{
+      margin-right: 97px;
     }
   }
   
