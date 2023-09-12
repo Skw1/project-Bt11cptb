@@ -157,6 +157,8 @@
     outline: none;
   }
   .mobile-close{
+    width: 32px;
+    height: 32px;
     stroke: var(--primary-black-color) ;
   }
   @media only screen and (min-width: 768px) {
