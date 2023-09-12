@@ -186,7 +186,7 @@
   }
 }
 
-/* For desktop */
+/* For desktop 1280 */
 
 @media screen and (min-width: 1280px) {
   .sign-up-container {
@@ -222,11 +222,54 @@
   .sign-up-lens {
     position: absolute;
     top: 76px;
+    left: 19px;
+    width: 150px;
   }
 
   .sign-up-camera {
     position: absolute;
     top: 156px;
     left: 50px;
+    width: 240px;
+  }
+}
+
+/* For desktop 1440 */
+
+@media screen and (min-width: 1440px) {
+  .sign-up-container {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+  }
+
+  .sign-up-oval-one {
+    width: 190px;
+    height: 288px;
+    border-radius: 1000px;
+    background-color: var(--brown-color);
+    position: relative;
+  }
+
+  .sign-up-oval-two {
+    width: 350px;
+    height: 540px;
+    border-radius: 1000px;
+    background-color: var(--secondary-black-color);
+    position: relative;
+  }
+
+  .sign-up-lens {
+    position: absolute;
+    top: 76px;
+    left: 19px;
+    width: 163px;
+  }
+
+  .sign-up-camera {
+    position: absolute;
+    top: 156px;
+    left: 50px;
+    width: 254px;
   }
 }
