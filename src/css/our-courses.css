@@ -1,85 +1,137 @@
-
-.our-courses-block{
-    display: flex;
-justify-content: center;
-align-items: flex-start;
-gap: 410px;
+.our-courses-section{
+    padding-bottom:80px;
 }
-.our-course-title{
-    color: var(--primary-white-color);
-    font-size: 48px;
-font-style: normal;
-font-weight: 500;
-line-height: 54px; 
-letter-spacing: -1.92px;
+.our-courses-top{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+.our-courses-title{
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  color: var(--primary-white-color);
+
 }
 .our-courses-span{
-color: #BEA69E;
-font-size: 48px;
-font-style: normal;
-font-weight: 500;
-line-height: 54px; /* 112.5% */
-letter-spacing: -1.92px;
+  color: var(--brown-color);
 }
-.text-our-courses-block{
-    color: #FFF;
-font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: -0.32px;
-width: 565px;
+.our-courses-text{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  color: var(--primary-white-color);
+  margin-bottom: 40px;
 }
-.our-courses-cards-general{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.our-courses-list{
+    display:flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
-.our-courses-card{
-    margin-right: 20px;
+.our-courses-point{
+    position: relative;
+    padding: 28px;
+    width: auto;
+    height: 398px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
     border-radius: 12px;
-border: 1px solid rgba(255, 255, 255, 0.20);
-background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
-
-height: 452px;
-flex-shrink: 0;
+    background: var(--linear-gradient);
+    margin-right: 0;
 }
-.header-our-courses-card{
-    display: inline-flex;
+.our-courses-card-container{
+    margin-bottom: 28px;
+}
+.our-courses-card-number{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 28px;
+    
+}
+.our-courses-card-link{
+    position:absolute;
+    top:28px;
+    right: 28px;
+    display:flex;
+    align-items: center;
     justify-content: center;
-    align-items: flex-start;
-    gap: 290px;
-    color: #777777;
-    width: 336px;
+    padding: 0;
+    width: 32px;
+    height: 32px;  
+    border-radius: 50%; 
+    cursor: pointer; 
+    background-color:var(--primary-black-color);  
+    transition: background-color var(--hover-animation-fast);
 }
-.basic-our-courses-card{
-    color: #FFF;
-font-size: 28px;
-font-style: normal;
-font-weight: 500;
-line-height: 32px;
-width: 265px;
-margin: 32px 103px 0px 32px ;
+.our-courses-card-link:hover, .our-courses-card-link:focus{
+    background-color: var(--brown-color);
 }
-.additional-our-courses-card{
-    width: 336px;
+.our-courses-card-icon{
+    fill:rgba(119, 119, 119, 1);
+}
+.our-courses-card-title{
+    color: var(--primary-white-color);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 164px;
+}
+.our-courses-card-paragraph{
     color: rgba(255, 255, 255, 0.50);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: -0.32px;
-margin: 200px 32px 32px 32px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0;
 }
-@media screen and (min-width: 1280px) {
-    .our-courses-cards-general{
+@media screen and (min-width:768px){
+    .our-courses-list{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 20px;
+        gap:20px;
     }
-    .our-courses-card{
-        width: calc((100% - 40px) / 3);
+    .our-courses-point{
+        width: calc((100% - 40px) / 2); 
+    }
+    .our-courses-point:nth-child(3n){
+        margin-right: 0;
+    }
+}
+@media screen and (min-width:1280px){
+    .our-courses-title{
+        font-size: 48px;
+        font-weight: 500;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .our-courses-span{
+        font-size: 48px;
+        font-weight: 500;
+    }
+    .our-courses-text{
+        font-size: 16px;
+    }
+    .our-courses-top{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        column-gap: 410px;
+        margin-bottom: 32px;
+    }
+    .our-courses-list{
+     flex-wrap: nowrap;
+    }
+    .our-courses-point{
+        width: calc((100% - 40px) / 3); 
+        height: 452px;
+    }
+    .our-courses-card-title{
+        text-align: left;
+        max-width: 265px;
     }
 }
