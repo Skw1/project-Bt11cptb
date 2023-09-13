@@ -17,40 +17,44 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
-
-.grid-container{
+.grid-container {
   background-image: url(../img/mobile-grid@1x.png);
   background-size: auto 100%;
-  background-repeat: no-repeat;
-  background-position:center;
+  background-repeat: repeat;
+  background-position: center;
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resoluton: 2dppx){
-  .grid-container{
-      background-image: url(../img/mobile-grid@2x.png);
-  }
-
-}
-
-@media (min-width:768px){
-  .grid-container{
-      background-image:  url(../img/tablet-grid@1x.png);
-  }
-  
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resoluton: 2dppx){
-    .grid-container{
-          background-image: url(../img/tablet-grid@2x.png);
-      }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resoluton: 2dppx) {
+  .grid-container {
+    background-image: url(../img/mobile-grid@2x.png);
   }
 }
 
-@media (min-width:1280px){
-  .grid-container{
-      background-image: url(../img/desktop-grid@1x.png);
+@media (min-width: 768px) {
+  .grid-container {
+    background-image: url(../img/tablet-grid@1x.png);
   }
 
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resoluton: 2dppx){
-    .grid-container{
-          background-image: url(../img/desktop-grid@2x.png);
-      }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resoluton: 2dppx) {
+    .grid-container {
+      background-image: url(../img/tablet-grid@2x.png);
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .grid-container {
+    background-image: url(../img/desktop-grid@1x.png);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resoluton: 2dppx) {
+    .grid-container {
+      background-image: url(../img/desktop-grid@2x.png);
+    }
   }
 }
