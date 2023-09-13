@@ -72,7 +72,7 @@
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
-    margin-bottom: auto;
+    margin-bottom: 164px;
 }
 .our-courses-card-paragraph{
     color: rgba(255, 255, 255, 0.50);
@@ -80,4 +80,10 @@
     font-style: normal;
     font-weight: 400;
     margin-bottom: 0;
+}
+@media screen and (min-width:768px){
+
+}
+@media screen and (min-width:1280px){
+    
 }
