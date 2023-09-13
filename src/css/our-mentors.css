@@ -1,16 +1,16 @@
 .our-mentors-team {
-  padding: 80px 0;
+  padding: 0 0 80px 0;
 }
 
 @media screen and (min-width: 768px) {
   .our-mentors-team {
-    padding: 100px 0;
+    padding: 0 0 100px 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .our-mentors-team {
-    padding: 150px 0;
+    padding: 0 0 150px 0;
   }
 }
 
@@ -113,6 +113,9 @@ body {
 
 .our-mentors-mini-list {
   width: auto;
+  row-gap: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
@@ -165,7 +168,9 @@ body {
 }
 
 .our-mentors-team-container {
-  gap: 4px;
+  row-gap: 4px;
+  display: flex;
+  flex-direction: column;
 }
 
 .our-mentors-our-people {
@@ -176,7 +181,6 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
-  margin-top: 16px;
   margin-bottom: 0;
 }
 
@@ -189,5 +193,4 @@ body {
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.28px;
-  margin-top: 4px;
 }
