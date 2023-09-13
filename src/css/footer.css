@@ -77,7 +77,6 @@
     font-size: 14px;
     font-style: normal;
     line-height: 1.28;
-    
 }
 .foot-tel {
     font-size: 14px;
@@ -182,6 +181,17 @@
     outline: transparent;
     border: none;
     color: var(--primary-white-color);
+
+    transition: color var(--hover-animation-slow), background-color var(--hover-animation-slow);
+}
+.foot-btn:hover,
+.foot-btn:focus {
+    background-color: var(--primary-white-color);
+    color: var(--primary-black-color);
+}
+.foot-btn:active {
+    background-color: var(--primary-white-color);
+    color: var(--primary-black-color);
 }
 .foot-bottom {
     display: flex;
