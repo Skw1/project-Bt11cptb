@@ -103,6 +103,26 @@
     }
 }
 @media screen and (min-width:1280px){
+    .our-courses-title{
+        font-size: 48px;
+        font-weight: 500;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .our-courses-span{
+        font-size: 48px;
+        font-weight: 500;
+    }
+    .our-courses-text{
+        font-size: 16px;
+    }
+    .our-courses-top{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        column-gap: 410px;
+        margin-bottom: 32px;
+    }
     .our-courses-list{
      flex-wrap: nowrap;
     }
@@ -110,5 +130,8 @@
         width: calc((100% - 40px) / 3); 
         height: 452px;
     }
-    
+    .our-courses-card-title{
+        text-align: left;
+        max-width: 265px;
+    }
 }
