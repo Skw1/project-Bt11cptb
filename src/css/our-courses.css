@@ -32,7 +32,10 @@
     background: var(--linear-gradient);
 }
 .our-courses-card-number{
-    
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
 .our-courses-card-link{
 
@@ -41,7 +44,11 @@
 
 }
 .our-courses-card-title{
-
+    color: var(--primary-white-color);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: auto;
 }
 .our-courses-card-paragraph{
     
