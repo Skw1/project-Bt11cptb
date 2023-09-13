@@ -1,5 +1,5 @@
 .our-courses-section{
-
+    padding-bottom:80px;
 }
 .our-courses-title{
   font-size: 28px;
@@ -27,22 +27,41 @@
     row-gap: 20px;
 }
 .our-courses-point{
+    padding: 28px;
     width: auto;
+    height: 398px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     border-radius: 12px;
     background: var(--linear-gradient);
+}
+.our-courses-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
 }
 .our-courses-card-number{
     color: rgba(255, 255, 255, 0.40);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    
 }
 .our-courses-card-link{
-
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 32px;
+    height: 32px;  
+    border-radius: 50%; 
+    cursor: pointer; 
+    background-color:var(--primary-black-color);  
+    transition: background-color var(--hover-animation-fast);
 }
 .our-courses-card-icon{
-
+    fill:rgba(119, 119, 119, 1);
 }
 .our-courses-card-title{
     color: var(--primary-white-color);
@@ -52,5 +71,9 @@
     margin-bottom: auto;
 }
 .our-courses-card-paragraph{
-    
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0;
 }
