@@ -1,5 +1,4 @@
 .reviews-section {
-  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -164,3 +163,14 @@
     line-height: 1.25;
   }
 }
+@media only screen and (min-width: 768px) {
+  .reviews-section {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .reviews-section {
+    padding-bottom: 150px;
+  }
+}
+

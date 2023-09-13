@@ -1,0 +1,48 @@
+.our-courses-section{
+
+}
+.our-courses-title{
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+
+}
+.our-courses-span{
+  color: var(--brown-color);
+}
+.our-courses-text{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  color: var(--primary-white-color);
+  margin-bottom: 40px;
+}
+.our-courses-list{
+    display:flex;
+    flex-direction: column;
+}
+.our-courses-point{
+    width: auto;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 12px;
+    background: var(--linear-gradient);
+}
+.our-courses-card-number{
+    
+}
+.our-courses-card-link{
+
+}
+.our-courses-card-icon{
+
+}
+.our-courses-card-title{
+
+}
+.our-courses-card-paragraph{
+    
+}
