@@ -1,0 +1,233 @@
+.foot-section {
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+    background-image: url(../img/mobile-grid@1x.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+    .foot-section {
+        background-image: url(../img/mobile-grid@2x.png);
+    }
+}
+@media screen and (min-width: 768px) {
+    .foot-section {
+        background-image: url(../img/tablet-grid@1x.png);
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+        .foot-section {
+            background-image: url(../img/tablet-grid@2x.png);
+        }
+    }
+}
+@media screen and (min-width: 1280px) {
+    .foot-section {
+            background-image: url(../img/desktop-grid@1x.png);
+        }
+    
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+            .foot-section {
+                background-image: url(../img/desktop-grid@2x.png);
+            }
+        }
+}
+.foot-container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: var(--primary-white-color);
+}
+@media screen and (min-width: 768px) {
+    .foot-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 25px;
+        margin: 0 auto;
+    }
+}
+.foot-address-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+.foot-address-container {
+    margin-right: 58px;
+    margin-bottom: 0;
+}
+}
+@media screen and (min-width: 768px) {
+    .foot-top {
+        display: flex;
+    }
+}
+.foot-logo {
+    display: flex;
+    margin-bottom: 20px;
+}
+.foot-address {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.28;
+}
+.foot-tel {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+    .foot-tel {
+        min-width: 142px;
+    }
+}
+.foot-nav-container {
+}
+.foot-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    column-gap: 40px;
+    margin-bottom: 75px;
+
+    text-transform: uppercase;
+    font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+    .foot-nav {
+        flex-wrap: nowrap;
+        column-gap: 25px;
+        margin-right: 59px;
+        margin-bottom: 74px;
+    }
+}
+.foot-social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.foot-social-link {
+
+}
+.foot-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.foot-nav-link {
+
+}
+.foot-form-container {
+    margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+    .foot-form-container {
+        max-width: 246px;
+        margin-bottom: 0;
+    }
+}
+.foot-form {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.foot-form-label {
+    
+}
+.foot-form-input {
+    width: 267px;
+    height: 60px;
+    padding: 20px 18px;
+
+    outline: transparent;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+    background: var(--primary-white-color);
+
+    transition: border-color var(--hover-animation-fast);
+}
+.foot-form-input:focus,
+.foot-form-input:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (min-width: 768px) {
+    .foot-form-input {
+        width: 178px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .foot-form-input {
+        width: 216px;
+    }
+}
+.foot-btn {
+    min-width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-black-color);
+    border-radius: 12px;
+    outline: transparent;
+    border: none;
+    color: var(--primary-white-color);
+
+    transition: color var(--hover-animation-slow), background-color var(--hover-animation-slow);
+}
+.foot-btn:hover,
+.foot-btn:focus {
+    background-color: var(--primary-white-color);
+    color: var(--primary-black-color);
+}
+.foot-btn:active {
+    background-color: var(--primary-white-color);
+    color: var(--primary-black-color);
+}
+.foot-bottom {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 12px;
+    line-height: 1.33;
+}
+
+@media screen and (min-width: 768px) {
+.foot-bottom {
+    
+}
+}
+.foot-privasy {
+    width: 147px;
+    font-size: 12px;
+    line-height: 1.33;
+}
+@media screen and (min-width: 768px) {
+.foot-privasy {
+        width: 171px;
+        font-size: 14px;
+        line-height: 1.28;
+    }
+}
+.foot-copyright {
+    width: 116px;
+    font-size: 12px;
+    line-height: 1.33;
+}
+@media screen and (min-width: 768px) {
+.foot-copyright {
+        width: 134px;
+        font-size: 14px;
+        line-height: 1.28;
+    }
+}
+
