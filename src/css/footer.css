@@ -114,6 +114,7 @@
     gap: 14px;
 }
 .foot-social-link {
+    color: var(--primary-white-color);
 
 }
 .foot-nav-list {
