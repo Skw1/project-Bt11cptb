@@ -49,5 +49,5 @@
 | Utilites | Front-end |
 | --- | --- |
 | VSCode | HTML/CSS |
-| Figma |  |
+| Figma | JavaScript |
 | Git/GitHub |  |
