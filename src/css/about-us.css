@@ -1,26 +1,26 @@
-.about-container {
-  padding-top: 80px;
+.about-section {
+  padding-bottom: 80px;
 }
 
 @media only screen and (min-width: 768px) {
-  .about-container {
-    padding-top: 100px;
+  .about-section {
+    padding-bottom: 100px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .about-container {
-    padding-top: 150px;
+  .about-section {
+    padding-bottom: 150px;
   }
 }
 
 .about-name {
-    color: var(--primary-white-color);
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.125;
-    letter-spacing: -0.04em;
-    margin-bottom: 40px;
+  color: var(--primary-white-color);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.125;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -31,11 +31,11 @@
 }
 
 .us-name {
-    color: var(--brown-color);
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.125;
-    letter-spacing: -0.04em;
+  color: var(--brown-color);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.125;
+  letter-spacing: -0.04em;
 }
 
 @media only screen and (min-width: 768px) {
@@ -91,13 +91,13 @@
 }
 
 .about-text {
-    color: var(--primary-white-color);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.25;
-    letter-spacing: -0.02em;
-    text-align: left;
-    max-width: 335px;
+  color: var(--primary-white-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: left;
+  max-width: 335px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -112,6 +112,8 @@
   }
 }
 
-.about-text:not(:last-child) {
+@media only screen and (max-width: 767.98px) {
+  .about-text:not(:last-child) {
     margin-bottom: 20px;
+  }
 }

@@ -1,57 +1,67 @@
+.advertisement {
+  padding-bottom: 80px;
+}
+@media only screen and (min-width: 768px) {
+  .advertisement {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .advertisement {
+    padding-bottom: 150px;
+  }
+}
 
-.advertisement-part{
-    display: flex;
-    overflow: hidden;
-    color: #ffff;
-    font-size: 28px;
-    font-weight: 400;
-    text-transform: uppercase;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+.advertisement-part {
+  display: flex;
+  overflow: hidden;
+  color: #ffff;
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .adver-moving-text {
-    flex-shrink: 0;
-    margin: 0;
-    padding: 20px 20px;
-    min-width: 100%;
-    white-space: nowrap;
-    animation-name: movingText;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 20px 20px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: movingText;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 .highlighter {
-    color: var(--brown-color);
+  color: var(--brown-color);
 }
 
 @media screen and (min-width: 768px) {
-    .advertisement-part {
-        font-size: 40px;
-    }
-    .adver-moving-text {
-        padding: 24px 20px;
-    }
+  .advertisement-part {
+    font-size: 40px;
+  }
+  .adver-moving-text {
+    padding: 24px 20px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-   
-    .advertisement-part {
-            font-size: 59px;
-        }
-        .adver-moving-text {
-            padding: 24px 100px;
-        }     
+  .advertisement-part {
+    font-size: 59px;
+  }
+  .adver-moving-text {
+    padding: 24px 100px;
+  }
 }
 
 @keyframes movingText {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-100%);
-    }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
-
-
