@@ -89,11 +89,35 @@
     margin-bottom: 0;
 }
 @media screen and (min-width:768px){
+    .our-courses-section{
+        padding-bottom:100px;
+    }
+    .our-courses-title{
+        font-size: 48px;
+        font-weight: 500;
+    }
+    .our-courses-span{
+        font-size: 48px;
+        font-weight: 500;
+    }
+    .our-courses-text{
+        font-size: 16px;
+        max-width:381px;
+    }
+    .our-courses-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 32px;
+    }
     .our-courses-point{
+        position: relative;
         padding: 32px;
         height: 452px;
     }
     .our-courses-card-title{
+        max-width: 265px;
+        margin-right: 0;
         margin-bottom: auto;
     }
     .our-courses-list{
@@ -108,27 +132,20 @@
     .our-courses-point:nth-child(3n){
         margin-right: 0;
     }
+    .our-courses-card-paragraph{
+        position: absolute;
+        bottom: 32px;
+        font-size: 16px;
+        width:278px;
+    }
 }
 @media screen and (min-width:1280px){
-    .our-courses-title{
-        font-size: 48px;
-        font-weight: 500;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-    }
-    .our-courses-span{
-        font-size: 48px;
-        font-weight: 500;
+    .our-courses-section{
+        padding-bottom:150px;
     }
     .our-courses-text{
         font-size: 16px;
-    }
-    .our-courses-top{
-        flex-direction: row;
-        flex-wrap: nowrap;
-        column-gap: 410px;
-        margin-bottom: 32px;
+        max-width:405px;
     }
     .our-courses-list{
      flex-wrap: nowrap;
@@ -140,5 +157,8 @@
     .our-courses-card-title{
         text-align: left;
         max-width: 265px;
+    }
+    .our-courses-card-paragraph{
+        font-size: 16px;
     }
 }
