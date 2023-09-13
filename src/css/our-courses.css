@@ -27,6 +27,7 @@
     row-gap: 20px;
 }
 .our-courses-point{
+    position: relative;
     padding: 28px;
     width: auto;
     height: 398px;
@@ -35,20 +36,20 @@
     background: var(--linear-gradient);
 }
 .our-courses-card-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-    
+    margin-bottom: 28px;
 }
 .our-courses-card-number{
     color: rgba(255, 255, 255, 0.40);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    margin-bottom: 28px;
     
 }
 .our-courses-card-link{
+    position:absolute;
+    top:28px;
+    right: 28px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -59,6 +60,9 @@
     cursor: pointer; 
     background-color:var(--primary-black-color);  
     transition: background-color var(--hover-animation-fast);
+}
+.our-courses-card-link:hover, .our-courses-card-link:focus{
+    background-color: var(--brown-color);
 }
 .our-courses-card-icon{
     fill:rgba(119, 119, 119, 1);
