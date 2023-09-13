@@ -140,7 +140,20 @@
   display: inline-flex;
   gap: 4px;
   align-items: center;
+  color: var(--primary-white-color);
+  transition: color var(--hover-animation-fast);
 }
+
+.hero-ourstudents-link:active {
+  color: var(--brown-color);
+}
+@media (hover: hover) {
+  .hero-ourstudents-link:hover,
+  .hero-ourstudents-link:focus {
+    color: var(--brown-color);
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .hero-ourstudents-link {
     flex-direction: column;
@@ -150,7 +163,6 @@
 }
 
 .hero-ourstudents-text {
-  color: var(--primary-white-color);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29;
@@ -163,6 +175,9 @@
     line-height: 1.25;
     max-width: 82px;
   }
+}
+.hero-arrow-icon {
+  fill: currentColor;
 }
 
 .hero-reviews {
